@@ -37,13 +37,13 @@ function Skills(){
 
         <>
             <section className="first-section">
-                <h1 className="welcome-text">Skills & Expertise</h1>
+                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold">Skills & Expertise</h1>
                 <p className="description">
                     Years of training and experience in the art
                     of baking
                 </p>
             </section>
-            <section className="second-section">
+            <section className="mx-4 my-8">
                 <div className="journey-table">
                     <h1>Core Competencies</h1>
                     <div className="space-y-6">
@@ -64,10 +64,10 @@ function Skills(){
                     </div>
                 </div>
             </section>
-            <section className="mx-12 mb-16 backdrop-blur-md bg-white/30 rounded-3xl p-6 md:p-8 border border-white/20 shadow-xl ">
+            <section className="mx-4 mb-16 backdrop-blur-md bg-white/30 rounded-3xl p-6 md:p-8 border border-white/20 shadow-xl ">
                 <h1 className="text-4xl mb-8 p-5">Certifications and Training</h1>
                 <div className="grid md:grid-cols-2 gap-6">
-                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-white/20">
+                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-gray/20">
                         <div className="flex items-start gap-4 overflow-hidden">
                             <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={24} />
                             <div>
@@ -77,7 +77,7 @@ function Skills(){
                             </div>
                         </div>
                     </div>
-                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-white/20">
+                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-gray/20">
                         <div className="flex items-start gap-4 overflow-hidden">
                             <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={24} />
                             <div>
@@ -87,7 +87,7 @@ function Skills(){
                             </div>
                         </div>
                     </div>
-                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-white/20">
+                    <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-gray/20">
                         <div className="flex items-start gap-4 overflow-hidden">
                             <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={24} />
                             <div>
@@ -99,13 +99,13 @@ function Skills(){
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="mx-4 my-8">
                 <h1 className="mb-5 p-5 bg-gradient-to-r from-purple-500 to-pink-500">Featured Projects</h1>
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="mx-12 backdrop-blur-sm bg-white/30 rounded-2xl p-8 border bborder-white/20 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+                            className="backdrop-blur-sm bg-white/30 rounded-2xl p-8 border border-gray/20 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
                         >
                             <div className="flex items-start justify-between mb-4">
                                 <span className="text-gray-700 px-4 py-1 backdrop-blur-sm bg-purple-700/20 rounded-full text-sm border border-white/20">
@@ -133,14 +133,14 @@ function Skills(){
                 </div>
             </section>
 
-            <section className="flex flex-col items-center mb-5 mx-12 mt-14 backdrop-blur bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-orange-500/20 rounded-3xl p-12 text-center border border-white/20 shadow-xl">
+            <section className="flex flex-col items-center mx-4 my-8 mt-14 backdrop-blur bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-orange-500/20 rounded-3xl p-12 text-center border border-gray/20 shadow-xl">
                 <h2 className="text-3xl md:text-4xl mb-4 py-2">
                     Let's Create Something Special Together
                 </h2>
                 <p className="text-xl text-gray-700 mb-6 max-w-2xl mx-uto">
                     Whether it's a wedding cake, corporate event or private celebration, I'd love to bring your imagination to reality
                 </p>
-                <button className="inline-flex items-center gap-2 px-8 py-4 backdrop-blur-md  bg-white/40 hover:bg-white/60 rounded-full transition-all shadow-lg hover-shadow-xl border border-white/20">
+                <button className="inline-flex items-center gap-2 px-8 py-4 backdrop-blur-md  bg-white/40 hover:bg-white/60 rounded-full transition-all shadow-lg hover-shadow-xl border border-gray/20">
                     <a href={Grace} download="" className="inline-flex">
                         Download CV
                         <ExternalLink size={20} />

@@ -15,7 +15,7 @@ function About(){
                 <div className="text-card">
                     <h2 className="head-text">Grace Njeri</h2>
                     <p>
-                        Hello! I'm Grace, the founder and head baker at Sweet Delights. My journey into the world of baking began over 10 years ago when I discovered my passion for creating delicious treats in my mother's kitchen.
+                        Hello! I'm Grace, the founder and head baker at Njeri's Delights. My journey into the world of baking began over 10 years ago when I discovered my passion for creating delicious treats in my mother's kitchen.
                     </p>
                     <p>
                         After graduating from Kiambu National Polytechnic and working in renowned bakeries across Kenya, I returned home with a dream: to share my love for artisan baking with my community. Today, Sweet Delights stands as a testament to that dream.
@@ -25,10 +25,10 @@ function About(){
                     </p>
                 </div>
             </div>
-            <section className="second-section">
-                <h1 className="value-header">Our Values</h1>
-                <div className="values-grid">
-                    <div className="value-card">
+            <section className="mx-4">
+                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold pb-5">Our Values</h1>
+                <div className="grid md:grid-cols-2 gap-6 lg:grid-cols-4">
+                    <div className="bg-white/30 backdrop-blur border border-gray/20 rounded-3xl shadow-2xl flex flex-col items-start px-8 py-6 text-left">
                         <div className="value-icon1">
                             <Heart className="text-purple-500" size={32} />
                         </div>
@@ -37,7 +37,7 @@ function About(){
                             Every creation is made with dedication and love for the craft
                         </p>
                     </div>
-                    <div className="value-card">
+                    <div className="bg-white/30 backdrop-blur border border-gray/20 rounded-3xl shadow-2xl flex flex-col items-start px-8 py-6 text-left">
                         <div className="value-icon2">
                             <Award className="text-pink-500" />
                         </div>
@@ -46,7 +46,7 @@ function About(){
                             Only the finest ingredients and traditional techniques
                         </p>
                     </div>
-                    <div className="value-card">
+                    <div className="bg-white/30 backdrop-blur border border-gray/20 rounded-3xl shadow-2xl flex flex-col items-start px-8 py-6 text-left">
                         <div className="value-icon3">
                             <Users  className="text-orange-500"/>
                         </div>
@@ -55,7 +55,7 @@ function About(){
                             Building connections through shared moments of sweetness
                         </p>
                     </div>
-                    <div className="value-card">
+                    <div className="bg-white/30 backdrop-blur border border-gray/20 rounded-3xl shadow-2xl flex flex-col items-start px-8 py-6 text-left">
                         <div className="value-icon4">
                             <Clock className="text-yellow-500" />
                         </div>
@@ -66,10 +66,10 @@ function About(){
                     </div>
                 </div>
             </section>
-            <section className="third-section">
+            <section className="mx-4 my-8">
                 <div className="journey-table">
-                    <h1>Our Journey</h1>
-                    <div className="row">
+                    <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold">Our Journey</h1>
+                    <div className="flex gap-3">
                         <div className="left">
                             <span className="year1">2010</span>
                         </div>
@@ -80,7 +80,7 @@ function About(){
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="flex gap-3">
                         <div className="left">
                             <span className="year2">2023</span>
                         </div>
@@ -91,7 +91,7 @@ function About(){
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="flex gap-3">
                         <div className="left">
                             <span className="year3">2025</span>
                         </div>
@@ -102,7 +102,7 @@ function About(){
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="flex gap-3">
                         <div className="left">
                             <span className="year4">2026</span>
                         </div>
