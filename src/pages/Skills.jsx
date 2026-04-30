@@ -37,7 +37,7 @@ function Skills(){
 
         <>
             <section className="first-section">
-                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-4xl md:text-6xl font-semibold pb-3">Skills & Expertise</h1>
+                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent text-6xl font-semibold pb-3">Skills & Expertise</h1>
                 <p className="description">
                     Years of training and experience in the art
                     of baking
