@@ -37,7 +37,7 @@ function Skills(){
 
         <>
             <section className="first-section">
-                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold">Skills & Expertise</h1>
+                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-4xl md:text-6xl font-semibold pb-3">Skills & Expertise</h1>
                 <p className="description">
                     Years of training and experience in the art
                     of baking
@@ -45,7 +45,7 @@ function Skills(){
             </section>
             <section className="mx-4 my-8">
                 <div className="journey-table">
-                    <h1>Core Competencies</h1>
+                    <h1 className="text-4xl mb-8 p-5 font-semibold tracking-normal">Core Competencies</h1>
                     <div className="space-y-6">
                         {skills.map((skill, index) => (
                             <div key={index}>
@@ -65,7 +65,7 @@ function Skills(){
                 </div>
             </section>
             <section className="mx-4 mb-16 backdrop-blur-md bg-white/30 rounded-3xl p-6 md:p-8 border border-white/20 shadow-xl ">
-                <h1 className="text-4xl mb-8 p-5">Certifications and Training</h1>
+                <h1 className="text-4xl mb-8 p-5 font-semibold tracking-normal">Certifications and Training</h1>
                 <div className="grid md:grid-cols-2 gap-6">
                     <div className="backdrop-blur-sm bg-white/20 rounded-xl p-6 border border-gray/20">
                         <div className="flex items-start gap-4 overflow-hidden">
@@ -100,7 +100,7 @@ function Skills(){
                 </div>
             </section>
             <section className="mx-4 my-8">
-                <h1 className="mb-5 p-5 bg-gradient-to-r from-purple-500 to-pink-500">Featured Projects</h1>
+                <h1 className="mb-5 p-5 bg-gradient-to-r from-purple-500 to-pink-500 font-semibold tracking-normal">Featured Projects</h1>
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((project, index) => (
                         <div

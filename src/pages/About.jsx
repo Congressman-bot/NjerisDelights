@@ -26,14 +26,14 @@ function About(){
                 </div>
             </div>
             <section className="mx-4">
-                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold pb-5">Our Values</h1>
+                <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent text-4xl font-semibold tracking-normal pb-5">Our Values</h1>
                 <div className="grid md:grid-cols-2 gap-6 lg:grid-cols-4">
                     <div className="bg-white/30 backdrop-blur border border-gray/20 rounded-3xl shadow-2xl flex flex-col items-start px-8 py-6 text-left">
                         <div className="value-icon1">
                             <Heart className="text-purple-500" size={32} />
                         </div>
                         <h2 className="value-text">Passion</h2>
-                        <p>
+                        <p className="text-gray-600">
                             Every creation is made with dedication and love for the craft
                         </p>
                     </div>
@@ -42,7 +42,7 @@ function About(){
                             <Award className="text-pink-500" />
                         </div>
                         <h2 className="value-text">Quality</h2>
-                        <p>
+                        <p className="text-gray-600">
                             Only the finest ingredients and traditional techniques
                         </p>
                     </div>
@@ -51,7 +51,7 @@ function About(){
                             <Users  className="text-orange-500"/>
                         </div>
                         <h2 className="value-text">Community</h2>
-                        <p>
+                        <p className="text-gray-600">
                             Building connections through shared moments of sweetness
                         </p>
                     </div>
@@ -60,7 +60,7 @@ function About(){
                             <Clock className="text-yellow-500" />
                         </div>
                         <h2 className="value-text">Tradition</h2>
-                        <p>
+                        <p className="text-gray-600">
                             Honoring time-tested methods passed down through generations
                         </p>
                     </div>
@@ -68,7 +68,7 @@ function About(){
             </section>
             <section className="mx-4 my-8">
                 <div className="journey-table">
-                    <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent sm:text-2xl md:text-4xl font-semibold">Our Journey</h1>
+                    <h1 className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text bg-transparent text-4xl font-semibold tracking-normal">Our Journey</h1>
                     <div className="flex gap-3">
                         <div className="left">
                             <span className="year1">2010</span>
