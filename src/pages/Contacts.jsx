@@ -134,7 +134,7 @@ function Contacts() {
                                 </div>
                                 <div>
                                     <h3 className="flex align-left text-lg mb-1 text-gray-900 font-semibold">Email</h3>
-                                    <p className="text-gray-700">graceshiera@gmail.com</p>
+                                    <p className="text-gray-700">shierag04@gmail.com</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">

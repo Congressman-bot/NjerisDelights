@@ -100,7 +100,7 @@ function Skills(){
                 </div>
             </section>
             <section className="mx-4 my-8">
-                <h1 className="mb-5 p-5 bg-gradient-to-r from-purple-500 to-pink-500 font-semibold tracking-normal">Featured Projects</h1>
+                <h1 className="mb-5 p-5 bg-gradient-to-r from-purple-500 to-pink-500 font-semibold tracking-normal text-4xl">Featured Projects</h1>
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((project, index) => (
                         <div
